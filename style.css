@@ -1,0 +1,174 @@
+/* Consultei ao código da Juliane Cardoso Turma 16 - Tribo B  */
+
+body {
+  font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: rgb(22, 22, 22);
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  background-color: cyan;
+  font-size: 50px;
+  margin-top: -8px;
+  margin-left: -8px;
+  padding: 20px 0px;
+}
+
+h2 {
+  color: aliceblue;
+  margin-top: 100px;
+  text-align: center;
+}
+
+footer {
+  background-color: aqua;
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: -8px;
+  margin-bottom: -8px;
+}
+
+p,a {
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+}
+
+a {
+  color: rgb(81, 1, 156);
+}
+
+#color-palette {
+  background-color: aqua;
+  padding: 8px 0px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  margin-left: -8px;
+  margin-bottom: 80px;
+  margin-top: -15px;
+}
+
+.color {
+  width: 42px;
+  height: 42px;
+  display: inline-block;
+  border: 2px solid black;
+  margin-top: 2px;
+}
+
+#pixel-board {
+  margin-top: 150px;
+  margin-bottom: 200px;
+  width: 100%;
+  height: 100%;
+}
+
+.pixel-line {
+  display: flex;
+  justify-content: center;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+#div-buttons {
+display: block;
+text-align: center;
+}
+
+
+#clear-board {
+  font-weight: 700;
+  border-radius: 3px;
+  padding: 5px 20px;
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+#position-clean {
+  text-align: center;
+}
+
+#generate-board {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#board-size {
+  font-weight: 900;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-left: 10px;
+  text-align: center;
+  width: 30px;
+}
+
+#clear-board:hover {
+  background-color: rgb(0, 255, 221);
+  color: black;
+  border: 1px solid black;
+}
+
+#board-size:hover {
+  background-color: rgb(0, 255, 221);
+  color: black;
+  border: 1px solid black;
+}
+
+#generate-board:hover {
+  background-color: rgb(0, 255, 221);
+  color: black;
+  border: 1px solid black;
+}
+
+#light-mode {
+  font-weight: 900;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+#light-mode:hover {
+  background-color: rgb(0, 255, 221);
+  color: black;
+  border: 1px solid black;
+}
+
+#dark-mode {
+  font-weight: 900;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+#dark-mode:hover {
+  background-color: rgb(0, 255, 221);
+  color: black;
+  border: 1px solid black;
+}
