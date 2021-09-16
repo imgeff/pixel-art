@@ -2,7 +2,7 @@
 const divPalette = document.querySelector('#color-palette'); // Capturo a div da paleta
  const arrayColors = ['#000000', '#C0392B', '#E74C3C', '#9B59B6', '#8E44AD', '#2980B9'];
  arrayColors.push('#3498DB', '#1ABC9C', '#2ECC71', '#F1C40F', '#F39C12');
- arrayColors.push('#D35400', '#BDC3C7', '#95A5A6', '#7F8C8D', '#34495E', '#2C3E50');
+ arrayColors.push('#D35400', 'white', '#BDC3C7', '#95A5A6', '#7F8C8D', '#34495E', '#2C3E50');
 function createPalette() {
   for (let index = 0; index < arrayColors.length; index += 1) {
     const createDiv = document.createElement('div'); // Cria as divs filha
