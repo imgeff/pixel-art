@@ -172,6 +172,7 @@ function light() {
   function hoverEfect (element) {
     element.addEventListener('mousemove', function () {
       element.style.backgroundColor = 'aqua';
+      element.style.border = '2px solid black';
     })
 
     element.addEventListener('mouseout', function () {

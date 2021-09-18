@@ -11,6 +11,7 @@ h1 {
   text-align: center;
   width: 100%;
   background-color: cyan;
+  border-bottom: 5px solid black;
   font-size: 50px;
   margin-top: -8px;
   margin-left: -8px;
@@ -25,6 +26,7 @@ h2 {
 
 footer {
   background-color: aqua;
+  border-top: 5px solid black;
   padding: 10px;
   margin-top: 50px;
   margin-left: -8px;
