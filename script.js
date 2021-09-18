@@ -153,21 +153,21 @@ function light() {
   divPalette.style.backgroundColor = 'white';
   buttonLight.style.backgroundColor = 'white';
   buttonLight.style.color = 'black';
-  buttonLight.style.border = '1px solid black';
+  buttonLight.style.border = '2px solid black';
   body.style.backgroundColor = 'white';
   h2.style.color = 'black';
   buttonClean.style.backgroundColor = 'white';
   buttonClean.style.color = 'black';
-  buttonClean.style.border = '1px solid black';
+  buttonClean.style.border = '2px solid black';
   inputBoard.style.backgroundColor = 'white';
   inputBoard.style.color = 'black';
-  inputBoard.style.border = '1px solid black';
+  inputBoard.style.border = '2px solid black';
   buttonBoard.style.backgroundColor = 'white';
   buttonBoard.style.color = 'black';
-  buttonBoard.style.border = '1px solid black';
+  buttonBoard.style.border = '2px solid black';
   buttonDark.style.backgroundColor = 'white';
   buttonDark.style.color = 'black';
-  buttonDark.style.border = '1px solid black';
+  buttonDark.style.border = '2px solid black';
   // Adição de efeito hover em outros temas
   function hoverEfect (element) {
     element.addEventListener('mousemove', function () {
@@ -175,7 +175,9 @@ function light() {
     })
 
     element.addEventListener('mouseout', function () {
-      element.style.backgroundColor = 'unset';
+      element.style.backgroundColor = 'white';
+      element.style.color = 'black';
+      element.style.border = '2px solid black';
     })
   }
   hoverEfect(buttonDark);
@@ -196,34 +198,34 @@ function dark() {
   divPalette.style.backgroundColor = 'aqua';
   buttonDark.style.backgroundColor = 'black';
   buttonDark.style.color = 'white';
-  buttonDark.style.border = '1px solid white';
+  buttonDark.style.border = '2px solid white';
   body.style.backgroundColor = 'black';
   h2.style.color = 'white';
   buttonClean.style.backgroundColor = 'black';
   buttonClean.style.color = 'white';
-  buttonClean.style.border = '1px solid white';
-  buttonDark.style.border = '1px solid white';
+  buttonClean.style.border = '2px solid white';
+  buttonDark.style.border = '2px solid white';
   inputBoard.style.backgroundColor = 'black';
   inputBoard.style.color = 'white';
-  inputBoard.style.border = '1px solid white';
+  inputBoard.style.border = '2px solid white';
   buttonBoard.style.backgroundColor = 'black';
   buttonBoard.style.color = 'white';
-  buttonBoard.style.border = '1px solid white';
+  buttonBoard.style.border = '2px solid white';
   buttonLight.style.backgroundColor = 'black';
   buttonLight.style.color = 'white';
-  buttonLight.style.border = '1px solid white';
+  buttonLight.style.border = '2px solid white';
   // Adição de efeito hover em outros temas
   function hoverEfect (element) {
     element.addEventListener('mousemove', function () {
       element.style.backgroundColor = 'aqua';
       element.style.color = 'black';
-      element.style.border = '1px solid black'
+      element.style.border = '2px solid aqua'
     })
 
     element.addEventListener('mouseout', function () {
       element.style.backgroundColor = 'black';
       element.style.color = 'white';
-      element.style.border = '1px solid white';
+      element.style.border = '2px solid white';
     })
   }
   hoverEfect(buttonDark);
