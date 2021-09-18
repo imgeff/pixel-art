@@ -168,6 +168,21 @@ function light() {
   buttonDark.style.backgroundColor = 'white';
   buttonDark.style.color = 'black';
   buttonDark.style.border = '1px solid black';
+  // Adição de efeito hover em outros temas
+  function hoverEfect (element) {
+    element.addEventListener('mousemove', function () {
+      element.style.backgroundColor = 'aqua';
+    })
+
+    element.addEventListener('mouseout', function () {
+      element.style.backgroundColor = 'unset';
+    })
+  }
+  hoverEfect(buttonDark);
+  hoverEfect(buttonLight);
+  hoverEfect(buttonBoard);
+  hoverEfect(buttonClean);
+  hoverEfect(inputBoard);
 }
 
 let buttonDark = document.createElement('button');
@@ -197,4 +212,23 @@ function dark() {
   buttonLight.style.backgroundColor = 'black';
   buttonLight.style.color = 'white';
   buttonLight.style.border = '1px solid white';
+  // Adição de efeito hover em outros temas
+  function hoverEfect (element) {
+    element.addEventListener('mousemove', function () {
+      element.style.backgroundColor = 'aqua';
+      element.style.color = 'black';
+      element.style.border = '1px solid black'
+    })
+
+    element.addEventListener('mouseout', function () {
+      element.style.backgroundColor = 'black';
+      element.style.color = 'white';
+      element.style.border = '1px solid white';
+    })
+  }
+  hoverEfect(buttonDark);
+  hoverEfect(buttonLight);
+  hoverEfect(buttonBoard);
+  hoverEfect(buttonClean);
+  hoverEfect(inputBoard);
 }
